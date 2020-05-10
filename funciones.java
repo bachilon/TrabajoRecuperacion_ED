@@ -1,7 +1,5 @@
-package funcionesPruebas;
-
 public class funciones {
-	    //////////////////// FUNCION #1 //////////////////////
+	    //////////////////// FUNCION 1 //////////////////////
 
 	 public static Boolean Funcion1(String palabra) {
 
@@ -21,7 +19,7 @@ public class funciones {
 	        }
 	   return result;
 }
-////////////////////FUNCION #2 //////////////////////
+////////////////////FUNCION 2 //////////////////////
 
 public static String Funcion2(String palabra, String palabra2) {
 
@@ -56,7 +54,7 @@ public static String Funcion2(String palabra, String palabra2) {
 	return result;
 
 }
-//////////////////// FUNCION #3 //////////////////////
+//////////////////// FUNCION 3 //////////////////////
 
 public static Integer funcion3(int[] numeros) {
 
@@ -70,7 +68,7 @@ public static Integer funcion3(int[] numeros) {
 		}
 		return resultado;
 }
-//////////////////// FUNCION #4 //////////////////////
+//////////////////// FUNCION 4 //////////////////////
 
 public static String funcion4(int[] notas) {
 
@@ -95,7 +93,7 @@ public static String funcion4(int[] notas) {
 		}
 		return resultado;
 }
-//////////////////// FUNCION #5 //////////////////////
+//////////////////// FUNCION 5 //////////////////////
 
 public static Integer funcion5(String signo, int numero1, int numero2) {
 
