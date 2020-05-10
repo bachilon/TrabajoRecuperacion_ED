@@ -1,5 +1,3 @@
-package Tests;
-
 import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -33,7 +31,7 @@ class test4 {
 		
 		@AfterAll
 		static void finPruebas() {
-			System.out.println("Pruebas realizadas con éxito");
+			System.out.println("Pruebas realizadas con Ã©xito");
 			funcion = null;
 			}
 		
@@ -43,28 +41,28 @@ class test4 {
 		@Test
 		void PruebaFuncion4() {
 			assertEquals("Insuficiente", funciones.funcion4( new int[] {4, 4, 3, 5, 6, 5}));
-			// Esta prueba consiste en que nos salga como resultado Insuficiente, por tanto añadimos unas notas cuya media sea menor que 5.
+			// Esta prueba consiste en que nos salga como resultado Insuficiente, por tanto aÃ±adimos unas notas cuya media sea menor que 5.
 		}
 		@DisplayName("Caja NEGRA particiones equivalentes (Entrada Valida)")
 		@Test
 		void Prueba2Funcion4() {
 			assertNotEquals("Suficiente", funciones.funcion4( new int[] {8, 5, 5, 5, 7, 6}));
 			
-			// Esta prueba consiste en que nos salga como resultado Suficiente, por tanto añadimos unas notas cuya media sea entre 5-6.
+			// Esta prueba consiste en que nos salga como resultado Suficiente, por tanto aÃ±adimos unas notas cuya media sea entre 5-6.
 		}
 		@DisplayName("Caja NEGRA con valor limite inferior")
 		@Test
 		void Prueba3Funcion4() {
 			assertEquals("Notable", funciones.funcion4( new int[] {7, 5, 10, 8, 9, 10}));
 			
-			// Esta prueba consiste en que nos salga como resultado Suficiente, por tanto añadimos unas notas cuya media sea entre 7-9.
+			// Esta prueba consiste en que nos salga como resultado Suficiente, por tanto aÃ±adimos unas notas cuya media sea entre 7-9.
 		}
 		@DisplayName("Caja NEGRA con valor limite inferior -1")
 		@Test
 		void Prueba4Funcion4() {
 			assertEquals("Bien", funciones.funcion4( new int[] {5, 7, 8, 5, 6, 7}));
 			
-			//Esta prueba consiste en que nos salga como resultado Suficiente, por tanto añadimos unas notas cuya media sea entre 6-7.
+			//Esta prueba consiste en que nos salga como resultado Suficiente, por tanto aÃ±adimos unas notas cuya media sea entre 6-7.
 		}
 		
 			//****PRUEBAS DE CAJA BLANCA****\\
@@ -95,7 +93,7 @@ class test4 {
 		void Prueba8Funcion4() {
 			assertEquals("Sobresaliente", funciones.funcion4( new int[] {10, 10, 10, 10, 10, 10}));
 			
-			//Esta prueba consiste en que nos salga como resultado Sobresaliente, por tanto añadimos unas notas cuya media sea entre 9-10.
+			//Esta prueba consiste en que nos salga como resultado Sobresaliente, por tanto aÃ±adimos unas notas cuya media sea entre 9-10.
 		}
 
 	}
