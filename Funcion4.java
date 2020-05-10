@@ -1,5 +1,3 @@
-package Funciones;
-
 public class Funcion4 {
 
 	public static String funcion4(int[] notas) {
