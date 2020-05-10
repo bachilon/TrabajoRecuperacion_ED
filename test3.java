@@ -1,5 +1,3 @@
-package Tests;
-
 import static org.junit.jupiter.api.Assertions.*;
 		import org.junit.jupiter.api.AfterAll;
 		import org.junit.jupiter.api.AfterEach;
@@ -30,7 +28,7 @@ import static org.junit.jupiter.api.Assertions.*;
 			
 			@AfterAll
 			static void finPruebas() {
-				System.out.println("Pruebas realizadas con éxito");
+				System.out.println("Pruebas realizadas con Ã©xito");
 				funcion = null;
 			}
 			
@@ -40,7 +38,7 @@ import static org.junit.jupiter.api.Assertions.*;
 			@Test
 			void PruebaFuncion3() {
 		        assertEquals(36, funciones.funcion3(new int[] {11, 12, 13})); 
-		        // Probamos el limite inferior que en este caso seria 11 que entraria en la suma y para que nos salga una suma, pues hemos añadido los dos siguientes numeros del 11 (12,13)
+		        // Probamos el limite inferior que en este caso seria 11 que entraria en la suma y para que nos salga una suma, pues hemos aÃ±adido los dos siguientes numeros del 11 (12,13)
 			}
 			@DisplayName("Caja NEGRA con valor limite inferior -1")
 			@Test
