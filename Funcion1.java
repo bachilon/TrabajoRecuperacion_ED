@@ -1,5 +1,3 @@
-package Funciones;
-
 public class Funcion1 {
 
 	public static Boolean Funcion1(String palabra) {
