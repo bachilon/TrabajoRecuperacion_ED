@@ -1,5 +1,3 @@
-package Funciones;
-
 public class Funcion5 {
 
 	public static Integer funcion5(String signo, int numero1, int numero2) {
