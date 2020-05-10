@@ -1,5 +1,3 @@
-package Tests;
-
 import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -33,7 +31,7 @@ class test1 {
 		
 		@AfterAll
 		static void finPruebas() {
-			System.out.println("Pruebas realizadas con éxito");
+			System.out.println("Pruebas realizadas con Ã©xito");
 			Funcion1 = null;
 		}
 			
@@ -62,7 +60,7 @@ class test1 {
 		@Test
 		@DisplayName("Caja NEGRA con equivalentes")
 		void Prueba4Funcion1() {
-			assertEquals(true, funciones.Funcion1("Huele a aire de primavera, tengo alergia en el corazón, voy cantando por la carretera"));
+			assertEquals(true, funciones.Funcion1("Huele a aire de primavera, tengo alergia en el corazÃ³n, voy cantando por la carretera"));
 			// Seria un caso valido porque hemos colocado una cadena de String y es de caso positivo, porque supera el total de vocales mi edad.
 		}
 		
