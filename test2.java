@@ -1,5 +1,3 @@
-package Tests;
-
 import static org.junit.Assert.assertNull;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -36,7 +34,7 @@ class test2 {
 		
 		@AfterAll
 		static void finPruebas() {
-			System.out.println("Pruebas realizadas con éxito");
+			System.out.println("Pruebas realizadas con Ã©xito");
 			funcion = null;
 		}
 		
