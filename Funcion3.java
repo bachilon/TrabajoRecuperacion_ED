@@ -1,5 +1,3 @@
-package Funciones;
-
 public class Funcion3 {
 
 	public static Integer funcion3(int[] numeros) {
