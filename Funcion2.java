@@ -1,5 +1,3 @@
-package Funciones;
-
 public class Funcion2 {
 
 	public static String Funcion2(String palabra, String palabra2) {
